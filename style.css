@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+header {
+    background: #7a1c1c;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.hero {
+    background: #f8eaea;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #7a1c1c;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #7a1c1c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 15px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.contact {
+    background: #f8f8f8;
+    text-align: center;
+}
+
+.whatsapp {
+    background: #25d366;
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+.email {
+    margin-top: 15px;
+}
